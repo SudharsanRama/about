@@ -6,9 +6,9 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 import profilePhoto from "@/assets/photo.jpg"
-import threedyLogo from "@/assets/threedy-logo.jpg"
+import threedyLogo from "@/assets/threedy-logo.png"
 import infineonLogo from "@/assets/Infineon-Logo.png"
-import wdcLogo from "@/assets/Western_Digital_logo.svg"
+import sanDiskLogo from "@/assets/SanDisk_2024_logo.svg"
 import configitLogo from "@/assets/Configit_logo.webp"
 import voonikLogo from "@/assets/voonik-logo.png"
 
@@ -47,10 +47,10 @@ const Index = () => {
                 Sudharsan Ramakrishnan
               </h1>
               <p className="mb-4 text-lg font-bold text-primary sm:mb-6 sm:text-xl md:text-2xl">
-                Software Engineer @ Threedy
+                Technical Consultant @ Threedy
               </p>
               <p className="mb-4 text-base leading-relaxed sm:mb-6 sm:text-lg">
-                Experienced Software Developer & Data Engineer with 8+ years of driving digital transformation through innovative web platforms and data solutions. I specialize in automating business processes and building scalable ETL pipelines that power analytics and reporting across organizations.
+                Full stack developer with 8+ years of experience building data-driven applications and analytics platforms. I focus on scalable enterprise software, process automation, and operational efficiency, and I enjoy contributing across product engineering, customer delivery, and digital transformation initiatives.
               </p>
               <div className="flex flex-wrap justify-center gap-2 sm:gap-4 md:justify-start">
                 <a href="mailto:sudharsan.raman16@gmail.com" className="flex items-center gap-2 border-2 border-border bg-accent px-3 py-2 text-sm font-bold shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] sm:px-4 sm:text-base sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
@@ -63,8 +63,8 @@ const Index = () => {
                 </a>
                 <div className="flex items-center gap-2 border-2 border-border bg-highlight px-3 py-2 text-sm font-bold shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:px-4 sm:text-base sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
                   <MapPin className="h-4 w-4" />
-                  <span className="hidden sm:inline">Bengaluru, India</span>
-                  <span className="sm:hidden">Bengaluru</span>
+                  <span className="hidden sm:inline">Bangalore, KA</span>
+                  <span className="sm:hidden">Bangalore</span>
                 </div>
               </div>
             </div>
@@ -98,16 +98,18 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-black sm:text-2xl">Threedy GmbH</h3>
-                    <p className="text-base font-bold text-primary sm:text-lg">Senior Solution Architect</p>
+                    <p className="text-base font-bold text-primary sm:text-lg">Technical Consultant</p>
                   </div>
                 </div>
                 <Badge className="self-start border-2 border-border bg-highlight text-highlight-foreground shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:self-auto">
                   June 2025 - Present
                 </Badge>
               </div>
-              <p className="text-sm sm:text-base">
-                Driving pre-sales initiatives across India/Asia at Threedy, a leading provider of industrial 3D visualization software. Helping organizations leverage instant3Dhub to transform their industrial data into responsive, interactive 3D applications across the product lifecycle.
-              </p>
+              <div className="space-y-2 text-xs sm:text-sm">
+                <p>First employee at the India location, supporting Threedy&apos;s global expansion efforts.</p>
+                <p>Started in technical pre-sales, contributing to internal projects, PoCs, and showcase applications.</p>
+                <p>Now part of Customer Success, shipping custom full-stack solutions with React, Lit, and Go, alongside CI/CD, containerization, and Helm-based deployments on on-prem Kubernetes clusters.</p>
+              </div>
             </Card>
 
             {/* Infineon */}
@@ -134,11 +136,11 @@ const Index = () => {
                 </Badge>
               </div>
               <p className="mb-3 text-sm sm:text-base">
-                Part of Digital Services & Projects team at ATV Quality Management focusing on digitalization, automation, analytics, data science and engineering activities.
+                Part of the Digital Service &amp; Projects team at ATV QM, focused on digitalization, process automation, data science, and engineering initiatives.
               </p>
               <div className="space-y-2 text-xs sm:text-sm">
-                <p><span className="font-bold text-accent">Customer Self Service:</span> Developed data-pipeline for quality documents generation achieving 80% product coverage, contributing to 90% of customer quality inquiries resolution.</p>
-                <p><span className="font-bold text-accent">ValueStream PRO:</span> Built in-house Value Stream Mapping tool to analyze cost & cycle-time, rolled out company-wide for cost-saving opportunities identification.</p>
+                <p><span className="font-bold text-accent">QM Self Service:</span> Engineered a data integration pipeline combining product, quality, and reliability data to automate customer quality documentation, achieving 80% product coverage and resolving 90% of customer quality inquiries.</p>
+                <p><span className="font-bold text-accent">ValueStream PRO:</span> Built a value stream mapping tool to support lean-agile practices and enable data-driven efficiency improvements and cost optimization opportunities.</p>
               </div>
             </Card>
 
@@ -148,8 +150,8 @@ const Index = () => {
                 <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
                   <div className="flex h-12 w-24 items-center justify-center text-sm font-bold sm:h-16 sm:w-32">
                     <img
-                      src={wdcLogo}
-                      alt="Western Digital"
+                      src={sanDiskLogo}
+                      alt="SanDisk"
                       className="h-full w-full rounded object-contain"
                       width="128"
                       height="64"
@@ -157,18 +159,19 @@ const Index = () => {
                     />
                   </div>
                   <div>
-                    <h3 className="text-xl font-black sm:text-2xl">Western Digital</h3>
+                    <h3 className="text-xl font-black sm:text-2xl">SanDisk India Device Design Center Pvt Ltd</h3>
                     <p className="text-base font-bold text-primary sm:text-lg">Analyst 3, Programming</p>
                   </div>
                 </div>
                 <Badge className="self-start border-2 border-border bg-highlight text-highlight-foreground shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:self-auto">
-                  Apr 2020 - Apr 2024
+                  Aug 2019 - Apr 2024
                 </Badge>
               </div>
               <div className="space-y-2 text-xs sm:text-sm">
-                <p><span className="font-bold text-accent">DISCOVER+:</span> Built integrated analytics platform combining ModelN pricing and POS data with Salesforce rebate information for revenue optimization and predictive analytics.</p>
-                <p><span className="font-bold text-accent">Process Navigator:</span> Designed internal process mining tool for operational process analysis using event logs, featuring automated discovery and visual DFG representation.</p>
-                <p><span className="font-bold text-accent">Order Movement Reconciliation:</span> Developed ETL model comparing order attributes between legacy ERP systems in near real-time, streamlining CustomerOps efforts.</p>
+                <p>Worked in SanDisk&apos;s Advanced Business Analytics team building end-to-end data applications and analytical solutions.</p>
+                <p><span className="font-bold text-accent">Lead Analyst:</span> Led development of data pipelines, predictive ML models for freight cost and AR payment forecasting, and internal web applications including Process Navigator and DISCOVER+.</p>
+                <p><span className="font-bold text-accent">Earlier contributions:</span> Introduced scheduling and monitoring for Python jobs with Apache Airflow, explored PySpark migration for large transaction tables, and built ETL and analytics pipelines spanning Oracle ERP, Hybris, pricing, search, and review data.</p>
+                <p><span className="font-bold text-accent">Platform operations:</span> Supported Tableau Server administration with tabcmd and REST API for refreshes, audits, alerts, backups, version control, and exports.</p>
               </div>
             </Card>
 
@@ -188,16 +191,18 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-black sm:text-2xl">Configit</h3>
-                    <p className="text-base font-bold text-secondary sm:text-lg">Software Engineer</p>
+                    <p className="text-base font-bold text-secondary sm:text-lg">Solution Developer</p>
                   </div>
                 </div>
                 <Badge className="self-start border-2 border-border bg-highlight text-highlight-foreground shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:self-auto">
-                  Jun 2018 - Apr 2020
+                  Jun 2017 - Jul 2019
                 </Badge>
               </div>
-              <p className="text-sm sm:text-base">
-                Developed and maintained product configuration software for automotive industry clients. Implemented business rules engines and configuration logic to enable complex product customization workflows.
-              </p>
+              <div className="space-y-2 text-xs sm:text-sm">
+                <p>Worked in the delivery team on data preparation, product enhancements, client projects, and PoCs for configuration lifecycle management software.</p>
+                <p>Led development of Solidworks add-ins by integrating Configit&apos;s VT-SDK with the Solidworks API, expanding modeling and configuration capabilities that later evolved into the standalone Configit Engineering product.</p>
+                <p>Also conducted Configit Academy training and certification programs at TCS and Infosys.</p>
+              </div>
             </Card>
 
             {/* VOONIK */}
@@ -214,15 +219,15 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-black sm:text-2xl">VOONIK</h3>
-                    <p className="text-base font-bold text-accent sm:text-lg">Full Stack Developer</p>
+                    <p className="text-base font-bold text-accent sm:text-lg">Software Development Engineer Intern</p>
                   </div>
                 </div>
                 <Badge className="self-start border-2 border-border bg-highlight text-highlight-foreground shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:self-auto">
-                  Jul 2016 - May 2018
+                  Dec 2016 - May 2017
                 </Badge>
               </div>
               <p className="text-sm sm:text-base">
-                Built and scaled e-commerce platform features for fashion marketplace. Developed recommendation systems and personalization algorithms to enhance user shopping experience and drive conversions.
+                Contributed to the Android application development team for Voonik&apos;s women&apos;s fashion e-commerce platform.
               </p>
             </Card>
           </div>
@@ -243,23 +248,24 @@ const Index = () => {
               <h3 className="mb-3 text-xl font-black uppercase sm:mb-4 sm:text-2xl">Technical Skills</h3>
               <div className="flex flex-wrap gap-1 sm:gap-2">
                 <Badge className="border-2 border-border bg-primary text-xs text-primary-foreground sm:text-sm">Solution Architecture</Badge>
-                <Badge className="border-2 border-border bg-secondary text-xs text-secondary-foreground sm:text-sm">TypeScript</Badge>
+                <Badge className="border-2 border-border bg-secondary text-xs text-secondary-foreground sm:text-sm">ETL</Badge>
                 <Badge className="border-2 border-border bg-accent text-xs text-accent-foreground sm:text-sm">Go</Badge>
                 <Badge className="border-2 border-border bg-primary text-xs text-primary-foreground sm:text-sm">Python</Badge>
-                <Badge className="border-2 border-border bg-secondary text-xs text-secondary-foreground sm:text-sm">JavaScript</Badge>
+                <Badge className="border-2 border-border bg-secondary text-xs text-secondary-foreground sm:text-sm">TypeScript</Badge>
                 <Badge className="border-2 border-border bg-accent text-xs text-accent-foreground sm:text-sm">SQL</Badge>
                 <Badge className="border-2 border-border bg-primary text-xs text-primary-foreground sm:text-sm">Flask</Badge>
                 <Badge className="border-2 border-border bg-secondary text-xs text-secondary-foreground sm:text-sm">FastAPI</Badge>
-                <Badge className="border-2 border-border bg-accent text-xs text-accent-foreground sm:text-sm">React</Badge>
+                <Badge className="border-2 border-border bg-accent text-xs text-accent-foreground sm:text-sm">SQLAlchemy</Badge>
+                <Badge className="border-2 border-border bg-primary text-xs text-primary-foreground sm:text-sm">React</Badge>
                 <Badge className="border-2 border-border bg-primary text-xs text-primary-foreground sm:text-sm">Vue.js</Badge>
                 <Badge className="border-2 border-border bg-secondary text-xs text-secondary-foreground sm:text-sm">Tailwind CSS</Badge>
                 <Badge className="border-2 border-border bg-accent text-xs text-accent-foreground sm:text-sm">Pandas</Badge>
-                <Badge className="border-2 border-border bg-primary text-xs text-primary-foreground sm:text-sm">SQLAlchemy</Badge>
-                <Badge className="border-2 border-border bg-secondary text-xs text-secondary-foreground sm:text-sm">Docker</Badge>
-                <Badge className="border-2 border-border bg-accent text-xs text-accent-foreground sm:text-sm">Azure</Badge>
-                <Badge className="border-2 border-border bg-primary text-xs text-primary-foreground sm:text-sm">OpenShift</Badge>
-                <Badge className="border-2 border-border bg-secondary text-xs text-secondary-foreground sm:text-sm">Machine Learning</Badge>
-                <Badge className="border-2 border-border bg-accent text-xs text-accent-foreground sm:text-sm">NLP</Badge>
+                <Badge className="border-2 border-border bg-primary text-xs text-primary-foreground sm:text-sm">Docker</Badge>
+                <Badge className="border-2 border-border bg-secondary text-xs text-secondary-foreground sm:text-sm">Kubernetes</Badge>
+                <Badge className="border-2 border-border bg-accent text-xs text-accent-foreground sm:text-sm">Helm</Badge>
+                <Badge className="border-2 border-border bg-primary text-xs text-primary-foreground sm:text-sm">Oracle Database</Badge>
+                <Badge className="border-2 border-border bg-secondary text-xs text-secondary-foreground sm:text-sm">Tableau</Badge>
+                <Badge className="border-2 border-border bg-accent text-xs text-accent-foreground sm:text-sm">Data Modeling</Badge>
               </div>
             </Card>
 
@@ -268,27 +274,27 @@ const Index = () => {
               <ul className="space-y-2 text-xs sm:text-sm">
                 <li className="flex gap-2">
                   <span className="text-accent">▸</span>
-                  <span>🏆 Second Place (Madras Section) in IEEE Xtreme 8.0</span>
+                  <span>👏 Won 2 iAppreciate peer recognition awards at Infineon.</span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-accent">▸</span>
-                  <span>🥈 Second Place in CodeDash</span>
+                  <span>⭐ Won 2 &quot;We push to go further&quot; and 1 &quot;We Innovate&quot; Applause awards at Western Digital.</span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-accent">▸</span>
-                  <span>🥇 First Place in Idea Presentation Contest - IEEE SPAC Madras 2k16</span>
+                  <span>🏆 Ranked 2nd in the IEEE Xtreme programming contest for the Madras Section.</span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-accent">▸</span>
-                  <span>🎯 Top 4% in Epic Code (HackerRank Global Programming)</span>
+                  <span>🎯 Ranked in the top 4th percentile in HackerRank&apos;s Epic Code global programming contest.</span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-accent">▸</span>
-                  <span>⭐ Applause Award - "We push to go further"</span>
+                  <span>🥇 Won the Idea Presentation Competition at IEEE SPAC Madras Section 2016 hosted at SASTRA.</span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-accent">▸</span>
-                  <span>☕ Oracle Certified Professional, Java SE 6 Programmer</span>
+                  <span>🥈 Won the Code-Dash competitive programming event conducted by CIT, Coimbatore.</span>
                 </li>
               </ul>
             </Card>
@@ -310,10 +316,11 @@ const Index = () => {
               <div>
                 <h3 className="text-xl font-black sm:text-2xl">Bachelor of Engineering (B.E)</h3>
                 <p className="text-base font-bold text-primary sm:text-lg">Computer Science & Engineering</p>
-                <p className="text-sm text-muted-foreground sm:text-base">Thiagarajar College of Engineering</p>
+                <p className="text-sm text-muted-foreground sm:text-base">Thiagarajar College of Engineering (Anna University)</p>
+                <p className="mt-2 text-xs sm:text-sm">8.48 CGPA • IEEE Student Chapter Coordinator</p>
               </div>
               <Badge className="self-start border-2 border-border bg-highlight text-highlight-foreground shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:self-auto">
-                2012 - 2016
+                2013 - 2017
               </Badge>
             </div>
           </Card>
@@ -387,7 +394,7 @@ const Index = () => {
               </a>
               <div className="flex items-center justify-center gap-2 border-2 border-border bg-secondary px-3 py-2 text-xs font-bold shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:px-4 sm:text-sm sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
                 <Phone className="h-4 w-4" />
-                +91 9965627627
+                (+91) 99656 27627
               </div>
             </div>
           </div>
